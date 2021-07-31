@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar{
+
+    background :#fff;
+}
+.nav-link{
+
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all linear .2s;
+
+}
+.nav-link:hover{
+
+    color: #fff;
+    background: black;
+    border-radius: 5px;
+}
+.navbar-brand{
+
+    font-size: 1.7rem;
+    color: black;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+
+    color: black;
+}
+
+/*main section start form here*/
+
+.myMain{
+
+    background-image: url('/images/right.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.myMain h3{
+
+    font-size: 4.4rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.myMain h6{
+
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width: 30%;
+
+}
+.myMain .btn1{
+
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.myMain .btn2{
+
+    height: 55px;
+    width: 138px;
+    background:transparent;
+    color:  rgb(233, 20, 109);
+    border: 1px solid  rgb(233, 20, 109);
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.myMain .btn2:hover{
+
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    transition: all linear .3s;
+
+}
+/*main section end here*/
+
+/*about section start form here*/
+
+#about{
+
+    padding: 50px 0
+}
+.aboutImg img{
+
+    height: 500px;
+    width: 100%;
+}
+.aboutContent h1{
+  
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.aboutContent h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 17px;
+
+}
+.aboutContent p{
+
+    line-height: 1.5;
+   padding: 20px 0;
+}
+.progress{
+
+    background-color: rgb(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 25px;
+    margin: 20px 0;
+    
+}
+.pro-valuel{
+
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background: black;
+    height: 25px;
+    width: 0;
+  
+}
+.pro-value2{
+
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background: black;
+    height: 25px;
+    width: 0;
+   
+  
+}
+.pro-value3{
+
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background: black;
+    height: 25px;
+    width: 0;
+  
+}
+.pro-value4{
+
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background: black;
+    height: 25px;
+    width: 0;
+  
+}
+.progress p{
+
+    color: #fff;
+    padding: 5px;
+   
+    
+}
+@keyframes load1{
+
+    0%{
+        width: 0;
+    }
+    100%{
+
+        width: 95%;
+    }
+}
+@keyframes load2{
+
+    0%{
+        width: 0;
+    }
+    100%{
+
+        width: 98%;
+    }
+}
+@keyframes load3{
+
+    0%{
+        width: 0;
+    }
+    100%{
+
+        width: 100%;
+    }
+}
+@keyframes load4{
+
+    0%{
+        width: 0;
+    }
+    100%{
+
+        width: 90%;
+    }
+}
+.btn3{
+
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 145px;
+    color: #fff;
+    background:black;
+    border-radius: 4px;
+    margin-top: 30px ;
+    
+}
+.btn4{
+
+    border: 1px solid black;
+    outline: none;
+    height: 40px;
+    width: 145px;
+    color: black;
+    background:transparent;
+    border-radius: 4px;
+    margin-top: 30px ;
+    
+}
+.btn3:hover{
+    border: 1px solid black;
+    color: black;
+    background:transparent;
+    transition: .5s;
+    
+    
+}
+.btn4:hover{
+    border: none;
+    color: #fff;
+    background:black;
+    transition: .5s;
+    
+    
+}
+/*about section end here*/
+
+
+/*services section start form here*/
+
+#services{
+
+    padding: 20px 0;
+}
+#services h1{
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+#services h1::after{
+  
+    content: '';
+    top: 60px ;
+    left: 42%;
+    width: 180px;
+    height: 1px;
+    background: rgb(233, 20, 109);;
+    position: absolute;
+    align-items: center;
+}
+.services{
+
+   padding: 30px 0;
+}
+.circle{
+
+    text-align: center;
+    transition: all linear .3s;
+}
+.circle i{
+    background: #fff;
+    padding: 15px ;
+    color: black;
+    border-radius: 50%;
+    transition: all linear .3s;
+}
+.card{
+
+    box-shadow: 4px 6px 10px rgb(207, 203, 203);
+}
+.card:hover i{
+
+    background: black;
+    padding: 15px ;
+    color: #fff;
+    border-radius: 50%;
+    transition: all linear .3s;
+
+}
+.servicesContent{
+
+    text-align: center;
+    padding: 20px 0;
+}
+.servicesContent h4{
+
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.servicesContent p{
+
+    line-height: 2;
+}
+
+/*services section end here*/
+
+/*filter section start form here*/
+
+#filter h1{
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+
+}
+#filter h1::after{
+
+    content: '';
+    top: 60px ;
+    left: 42%;
+    width: 180px;
+    height: 1px;
+    background: rgb(233, 20, 109);;
+    position: absolute;
+    align-items: center;
+
+}
+.control{
+
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.control ul li{
+
+    list-style: none;
+    background:black;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+}
+.imgFilter{
+
+    position: relative;
+}
+.imgFilter span{
+
+    position: absolute;
+    font-size: 40px;
+    top: 45%;
+    left: 45%;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+
+}
+.imgFilter:hover span{
+
+    opacity: 1;
+    transition: all linear .3s;
+}
+.imgFilter:hover{
+
+    box-shadow: 3px 3px 9px 5px rgba(0,0,0,0.75);
+    transition: all linear .3s;
+}
+/*filter section end here*/
+
+/*projectWork section start form here*/
+
+#projectWork{
+
+    padding: 70px 0 20px 0;
+}
+.projectHeading{
+
+    text-align: center;
+}
+.projectHeading h3{
+
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.projectBackground{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('/images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.projectBackground{
+
+    padding: 100px 0;
+    text-align: center;
+}
+.projectBackground h1{
+
+    font-size: 30px;
+    color: #fff
+}
+.projectBackground p{
+
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+/*projectWork section end here*/
+
+/*blog section start form here*/
+
+#blog{
+
+    padding: 70px 0 30px 0;
+}
+.blogHeading{
+
+    text-align: center;
+}
+.blogHeading h2{
+
+    font-size: 40px;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cardContent{
+
+   text-align: left;
+}
+.cardContent h5{
+
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.cardContent p{
+
+    font-weight: bold;
+}
+
+/*blog section end here*/
+
+/*contact us section start form here*/
+
+#contact{
+
+    padding: 70px 0 30px 0;
+}
+.contactHeader{
+
+    text-align: center;
+}
+.contactHeader h2{
+
+    font-size: 40px;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.addressIcon{
+
+    text-align: center;
+    margin-bottom: 12px;
+    transition: all linear .3s;
+    padding: 12px 0;
+    
+}
+.addressIcon i:hover{
+
+    height: 40px;
+    width: 40px;
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px;
+    transform: translate();
+}
+.addressIcon i:hover{
+
+    
+}
+.addressContent h3{
+
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.addressContent p{
+
+    text-align: center;
+    color: black;
+    margin-top: 1px;
+}
+/*contact us section end here*/
+
+/*footer section start form here*/
+
+#footer-area{
+
+    padding: 90px 0 60px 0;
+    background: #262626;
+    color: #fff;
+}
+.footer-social{
+
+    margin-top: 20px;
+}
+.single-footer h3{
+
+    font-weight: 500;
+    font-family: arial black;
+    margin-bottom: 25px;
+    color: #fafafa;
+
+}
+.link-area{
+
+    padding: 0;
+}
+
+.link-area li{
+
+    list-style: none;
+    padding: 5px 5px 5px 0;
+}
+.link-area li a{
+
+  text-transform: capitalize;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+.link-area li a i{
+
+    margin-right: 10px;
+    color: #fafafa;
+}
+.single-footer p{
+
+    font-family: serif;
+}
+.footer-social li a{
+
+    height: 30px;
+    width: 30px;
+    background: #000;
+    display: inline-block;
+}
+.footer-social li a i{
+
+    color: #fafafa;
+    padding: 8px;
+}
+.widget li a{
+
+    float: left;
+    width: 50%;
+    
+
+}
+.widget li a img{
+
+   margin-bottom:-10px;
+   width: 100%;
+   height: 70px;
+}
+.copy-right{
+
+    background: black;
+    padding: 20px 0;
+    line-height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.copy-right p{
+
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+/*footer section end here*/
+
+
+
+#myBtn{
+
+    display: none;  
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    transition: all linear .2s;
+}
+#myBtn:hover{
+
+    background: rgb(233, 20, 109);;;
+}

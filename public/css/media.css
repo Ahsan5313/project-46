@@ -1,0 +1,130 @@
+@media(max-width:991px){
+
+    .myMain {
+       
+        
+        height: 100vh;
+        width: 100%;
+      
+        background-size: contain;
+    }
+    .myMain h3 {
+        font-size: 3.3rem;
+    }
+    .myMain h6 {
+        
+        width: 23%;
+    }
+    .myMain .btn1 {
+        height: 45px;
+        width: 120px;
+    }
+    .myMain .btn2 {
+        height: 45px;
+        width: 120px;
+    }
+   
+    .aboutContent {
+    
+        padding: 40px 0;
+    }
+    #services h1::after {        
+        left: 38%;
+    }
+}
+
+@media ( max-width:768px){
+    .myMain {
+              
+        height: 100vh;
+        width: 100%;
+        background-size: contain;
+        padding-bottom: 200px;
+    }
+    .myMain h3 {
+        font-size: 2.3rem;
+    }
+    .myMain h6 {
+        
+        width: 30%;
+    }
+    .myMain .btn1 {
+        height: 35px;
+        width: 100px;
+    }
+    .myMain .btn2 {
+        height: 35px;
+        width: 100px;
+    }
+    #services h1::after {        
+        left: 33%;
+    }
+
+}
+@media (max-width:692px){
+
+    .myMain{
+        height: 100vh;
+        width: 100%;
+        background-size: contain;
+        padding-bottom: 200px;
+
+    }
+    .myMain h3 {
+        font-size: 1.3rem;
+    }
+    .myMain h6 {
+        
+        width: 30%;
+        font-size: 16px;
+        line-height: 3;
+        margin-bottom: 10px;
+    }
+    .myMain .btn1 {
+        height: 25px;
+        width: 80px;
+       
+    }
+    .myMain .btn2 {
+        height: 25px;
+        width: 80px;
+    }
+}
+@media (max-width:600px){
+
+    .myMain{
+        height: 100vh;
+        width: 100%;
+        background-size: contain;
+        padding-bottom: 200px;
+
+    }
+    .myMain h3 {
+        font-size: 1rem;
+    }
+    .myMain h6 {
+        
+        width: 30%;
+        font-size: 16px;
+        line-height: 2;
+        margin-bottom: 10px;
+    }
+    .myMain .btn1 {
+        height: 25px;
+        width: 80px;
+       
+    }
+    .myMain .btn2 {
+        height: 25px;
+        width: 80px;
+    }
+    
+    
+}
+@media(max-width:576){
+
+    #services h1::after {        
+        left: 20%;
+    }
+
+}

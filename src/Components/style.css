@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar{
+
+    background :#fff;
+}
+.nav-link{
+
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all linear .2s;
+
+}
+.nav-link:hover{
+
+    color: #fff;
+    background: black;
+    border-radius: 5px;
+}
+.navbar-brand{
+
+    font-size: 1.7rem;
+    color: black;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+
+    color: black;
+}
+
+
+
+
+
+
+
+
+#footer-area{
+
+    padding: 90px 0 60px 0;
+    background: #262626;
+    color: #fff;
+}
+.footer-social{
+
+    margin-top: 20px;
+}
+.single-footer h3{
+
+    font-weight: 500;
+    font-family: arial black;
+    margin-bottom: 25px;
+    color: #fafafa;
+
+}
+.link-area{
+
+    padding: 0;
+}
+
+.link-area li{
+
+    list-style: none;
+    padding: 5px 5px 5px 0;
+}
+.link-area li a{
+
+  text-transform: capitalize;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+.link-area li a i{
+
+    margin-right: 10px;
+    color: #fafafa;
+}
+.single-footer p{
+
+    font-family: serif;
+}
+.footer-social li a{
+
+    height: 30px;
+    width: 30px;
+    background: #000;
+    display: inline-block;
+}
+.footer-social li a i{
+
+    color: #fafafa;
+    padding: 8px;
+}
+.widget li a{
+
+    float: left;
+    width: 50%;
+    
+
+}
+.widget li a img{
+
+   margin-bottom:-10px;
+   width: 100%;
+   height: 70px;
+}
+.copy-right{
+
+    background: black;
+    padding: 20px 0;
+    line-height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.copy-right p{
+
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+
+ 
+/*main section start form here*/
+ /* .myMain{
+
+    background-image: url('/images/right.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.myMain h3{
+
+    font-size: 4.4rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.myMain h6{
+
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width: 30%;
+
+}
+.myMain .btn1{
+
+    height: 55px;
+    width: 138px;
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.myMain .btn2{
+
+    height: 55px;
+    width: 138px;
+    background:transparent;
+    color:  rgb(233, 20, 109);
+    border: 1px solid  rgb(233, 20, 109);
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.myMain .btn2:hover{
+
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    transition: all linear .3s;
+
+}  */
+/*main section end here*/
+
+ 
+
+
+/*footer section end here*/
+
+
+
+/* #myBtn{
+
+    display: none;  
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    transition: all linear .2s;
+}
+#myBtn:hover{
+
+    background: rgb(233, 20, 109);;;
+} */
